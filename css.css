@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+a {
+	text-decoration: none;
+}
+.dashtitle {
+	color: #4B0167;
+	
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+	font-size: 4em;
+	
+	
+	
+	
+}
+.dashtitle2 {
+	
+	color: #4B0167;
+	
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+@keyframes titlein {
+	0% {margin-left: 0%; margin-top: 15%;}
+	13% {margin-left: 20%; margin-top: 7%;}
+	26% {margin-left: 40%; margin-top: 0%}
+	39% {margin-left: 55%; margin-top: 7%;}
+	52% {margin-top: 15%; margin-left: 70%;}
+	65% {margin-left: 55%; margin-top: 24%;}
+	78% {margin-left: 40%;margin-top: 30%; }
+	91% {margin-left: 17%; margin-top: 25%;}
+	100% {margin-left:0%; margin-top: 15%;}
+
+}
+@keyframes titlein2 {
+	0% {margin-left: 0%; margin-top: 8em;}
+	13% {margin-left: 4em; margin-top: 4em;}
+	26% {margin-left: 8em; margin-top: 0%}
+	39% {margin-left: 13em; margin-top: 4em;}
+	52% {margin-top: 8em; margin-left: 17em;}
+	65% {margin-left: 13em; margin-top: 12em;}
+	78% {margin-left: 8em;margin-top: 16em; }
+	91% {margin-left: 4em; margin-top: 12em;}
+	100% {margin-left:0%; margin-top: 8em;}
+}
+@keyframes titlein3 {
+	0% {margin-left: 0%; margin-top: 40%;margin-bottom:40%;}
+
+	25% {margin-left: 40%; margin-right:40%;margin-top: 0%;}
+
+	50% {margin-top: 40%; margin-right:0%; margin-bottom: 40%; margin-left:85%;}
+	
+	65% {margin-left: 40%; margin-right: 40%;margin-top:85%;}
+
+	100% {margin-left: 0%; margin-top: 40%;margin-bottom:40%; }
+}
+.dashopt {
+	position:fixed;
+	margin: auto;
+	top: 30%;
+	left: 40%;
+	right: 40%;
+	bottom: 40%;
+	border: #030000 solid 2px;
+	background-color: #B9B3DC;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left:1em;
+	padding-right:1em;
+	border-radius:100%;
+	
+	
+	
+
+}
+
+
+@media only screen and (min-width: 400px) {
+  /* For tablet: */
+
+  .col-5 {font-size: 2em;}
+ 
+  .dashtitle, .dashtitle2{display:none;}
+  .dashtitle3 img {width :5em;height:5em; border-radius:100%;animation: titlein3 5s infinite; display: block; }
+.forgot {top:10%;position:relative;}
+	
+	
+}
+
+@media only screen and (min-width: 700px) {
+  /* For tablet: */
+
+  .col-5 {font-size: 150%;}
+  .dashtitle2 {animation: titlein2 15s infinite; display: block; font-size :2em;}
+  .dashtitle,.dashtitle3 {display:none;}
+.forgot {top:30%;position:relative;}
+	
+	
+}	
+@media only screen and (min-width: 1000px) {
+  /* For desktop: */
+
+  .col-s-5 {font-size: 120%;}
+  .dashtitle {animation: titlein 15s infinite; display: block;}
+  .dashtitle2, .dashtitle3 {display:none;}
+  .dashopt {font-size: 30px;}
+  
+
+	
+	
+}	
+.body1 {
+	background-image: url(https://previews.123rf.com/images/pathakdesigner/pathakdesigner1501/pathakdesigner150100023/35234580-art%C3%ADstico-abstracto-de-la-onda-de-l%C3%ADnea-de-colores-con-fondo-c%C3%ADrculo-ilustraci%C3%B3n.jpg);
+	background-size:100% 90%;
+background-repeat: no-repeat;}
+
+    #menu {
+		align-content: flex-start;
+		width: 1100px;
+		font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+		margin:auto;
+	}
+	ul,ol {
+		list-style: none;	
+	}
+	.nav li a{
+		background-color:  #BDDBDA;
+		color: #000000;
+		text-decoration: none;
+		padding: 10px 15px;
+		display: block;
+		margin: 1px solid #000; 
+		border-radius: 10px;
+		border: 1px solid #C1C1C1; 
+		
+	}
+	.nav li a:hover{
+		background-color: #7EF8FF;
+	}
+	.nav > li {
+		float: left;
+	}
+	.nav li ul{
+		display: none;
+		position: absolute;
+		min-width: 140px;
+	}
+	.nav li:hover > ul {
+		display: block;
+	}
+	.nav li ul li {
+		position: relative;
+		
+	}
+	.nav li ul li ul {
+		right: -140px;
+		top: 0px;	
+	}
+	.encabezadod  {
+		margin: auto;
+		background-color:#B9A7C7;
+		width:80%;
+		height:24%;
+		border-radius: 40px;
+		top:40em;
+		border-bottom: #000 solid 1px;
+		font-size: 25px;
+		
+		
+	}
+	.encabezadod a {
+		color:#350073;
+		
+	}
+	.body2 {
+		background-image: url(https://previews.123rf.com/images/belyaevskiy/belyaevskiy1708/belyaevskiy170800021/84651837-viejo-tablero-de-madera-pintado-de-blanco-fondo-claro-o-textura-para-su-dise%C3%B1o.jpg);
+		background-size: cover;
+	}
+	input.casillano {
+		background-color:rgba(255,255,255,0.3);
+		border-radius: 50px;
+		border: 3px solid #000000;
+		width: 10em;
+		height: 30px;
+		
+	}
+	input.casillano:hover {
+		animation: casillano 1050ms infinite alternate;
+		border: 3px solid #CFA8F5;
+	}
+	input.accion {
+		width: 11em;
+		height: 50px;
+		color: #268CB0;
+		border-radius: 50px;
+		border: 3px solid #58007A;
+		background-color: #000000;
+		font-size: 10;
+	}
+	input.accion:hover {
+		animation: accion 1s alternate;
+		animation-iteration-count: 2;
+	}
+	@keyframes accion {
+		from {width: 11em; height: 40px; background-color:#000000; color: #268CB0; font-size: 10; border: #2F0063}
+		to {width: 12em; height: 55px;font-size: 11; border:4px solid #00A3FF; color: #FFFFFF;}
+	}
+	@keyframes casillano {
+		0% {border-color: #92004D;}
+	100% {border-color: #6A00A8;}}
+	.forgot {
+		
+		font-size:20px;
+		padding:2em 2em 2em 2em;
+		background-color:#B9A7C7;
+		width:10em;
+		height:10em;
+		position:relative;
+		border:CDCAD0 4px solid;
+		border-radius:40px;
+		text-align:center;
+		left:40%;
+		top:3em;
+	}
+	.login {
+		font-size:20px;
+		padding:2em 2em 2em 2em;
+		background-color:#B9A7C7;
+		width:10em;
+		height:16em;
+		position:relative;
+		border:CDCAD0 4px solid;
+		border-radius:40px;
+		text-align:center;
+		left:40%;
+		top:3em;
+		
+	}	
+	.register {
+		
+		font-size:20px;
+		padding:2em 2em 2em 2em;
+		background-color:#B9A7C7;
+		width:10em;
+		height:24em;
+		position:relative;
+		border:CDCAD0 4px solid;
+		border-radius:40px;
+		text-align:center;
+		left:40%;
+		top:2em;
+	}
+	.update{
+		
+		font-size:20px;
+		padding:2em 2em 2em 2em;
+		background-color:#B9A7C7;
+		width:14em;
+		height:32em;
+		position:relative;
+		border:CDCAD0 4px solid;
+		border-radius:40px;
+		text-align:center;
+		left:40%;
+		top:2em;
+	}
+	b.smallext {
+		font-size:25px;
+	}
+	.editv{
+		
+		font-size:20px;
+		padding:2em 2em 2em 2em;
+		background-color:#B9A7C7;
+		width:14em;
+		height:32em;
+		position:relative;
+		border:CDCAD0 4px solid;
+		border-radius:40px;
+		text-align:center;
+		left:40%;
+		top:2em;
+	}
+form {
+	margin: auto;
+	border: 3px solid green;
+	padding: 10px;
+	background-color:white;
+}
+
+
+	
+

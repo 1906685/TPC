@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>chepulsar</title>
+<style>
+
+ * {
+		padding: 0px;
+	}
+	#menu {
+		margin: auto;
+		width: 1100px;
+		font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+		
+		
+	}
+	ul,ol {
+		list-style: none;
+		
+	}
+	.nav li a{
+		background-color: #189EC0;
+		color: #000000;
+		text-decoration: none;
+		padding: 15px 18px;
+		display: block;
+		margin: 1px; 
+		border-radius: 50px;
+	}
+	.nav li a:hover{
+		background-color: aqua;
+	}
+	.nav > li {
+		float: left;
+	}
+	.nav li ul{
+		display: none;
+		position: absolute;
+		min-width: 140px;
+	}
+	.nav li:hover > ul {
+		display: block;
+	}
+	.nav li ul li {
+		position: relative;
+		
+	}
+	.nav li ul li ul {
+		right: -140px;
+		top: 0px;	
+	}
+ 
+ }
+</style>
+</head>
+<body>
+<div id="menu">
+   <ul class="nav">
+<li><a href="">articulos</a>
+<ul>
+<li><a href="/articulos/add.html">adicionar articulo</a></li>
+<li><a href="/articulos/index.php">lista de articulos</a></li>
+</ul>
+</li>
+<li><a href="">compras</a>
+<ul>
+<li><a href="/compras/add.html">registrar compras</a></li>
+<li><a href="/compras/index.php">lista de compras</a></li>
+</ul>
+</li>
+<li><a href="">empleados</a>
+<ul>
+<li><a href="/empleado/add.html">registrar empleados</a></li>
+<li><a href="/empleado/index.php">lista empleados</a></li>
+</ul>
+</li>
+<li><a href="">servicios </a>
+<ul>
+<li><a href="/servicios/add.html">registrar servicios</a></li>
+<li><a href="/servicios/index.php">lista de servicios</a></li>
+</ul>
+</li>
+<li><a href="">ventas</a>
+<ul>
+<li><a href="/ventas/add.html">registrar ventas</a></li>
+<li><a href="/ventas/index.php">lista de ventas</a></li>
+</ul>
+</li>
+<li><a href="">registrese</a>
+<ul>
+<li><a href="/login/index.php">inicio</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+</body>
+</html>
