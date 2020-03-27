@@ -1,0 +1,117 @@
+	
+	#menu {
+		align-content: flex-start;
+		width: 1100px;
+		font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+		
+	}
+	ul,ol {
+		list-style: none;	
+	}
+	.nav li a{
+		background-color:  #BDDBDA;
+		color: #000000;
+		text-decoration: none;
+		padding: 10px 15px;
+		display: block;
+		margin: 1px solid #000; 
+		border-radius: 10px;
+	}
+	.nav li a:hover{
+		background-color: #7EF8FF;
+	}
+	.nav > li {
+		float: left;
+	}
+	.nav li ul{
+		display: none;
+		position: absolute;
+		min-width: 140px;
+	}
+	.nav li:hover > ul {
+		display: block;
+	}
+	.nav li ul li {
+		position: relative;
+		
+	}
+	.nav li ul li ul {
+		right: -140px;
+		top: 0px;	
+	}
+	.contenido {
+		background-image: url(https://previews.123rf.com/images/belyaevskiy/belyaevskiy1708/belyaevskiy170800021/84651837-viejo-tablero-de-madera-pintado-de-blanco-fondo-claro-o-textura-para-su-dise%C3%B1o.jpg);
+		background-size: cover;
+		right: 5%;
+		left: 5%;
+		top: 5%;
+		bottom: 5%;
+		padding-bottom: 1em;
+		padding-left:  1em;
+		padding-top: 1em;
+		padding-right: 1em;
+		border-radius: 40px;
+		
+			
+	}
+form {
+	display:none;
+  margin: auto;
+  width: 25%;
+  border: 3px solid green;
+  padding: 10px;
+  background-color:white;
+}
+input.casillano {
+		background-color:rgba(255,255,255,0.3);
+		border-radius: 50px;
+		border: 3px solid #000000;
+		width: 10em;
+		height: 25px;
+		
+	}
+	input.casillano:hover {
+		animation: casillano 1050ms infinite alternate;
+		border: 3px solid #CFA8F5;
+	}
+	input.accion {
+		width: 11em;
+		height: 40px;
+		color: #268CB0;
+		border-radius: 50px;
+		border: 3px solid #58007A;
+		background-color: #000000;
+		font-size: 10;
+	}
+	input.accion:hover {
+		animation: accion 1s alternate;
+		animation-iteration-count: 2;
+	}
+	@keyframes accion {
+		from {width: 11em; height: 40px; background-color:#000000; color: #268CB0; font-size: 10; border: #2F0063}
+		to {width: 12em; height: 55px;font-size: 11; border:4px solid #00A3FF; color: #FFFFFF;}
+	}
+	@keyframes casillano {
+		0% {border-color: #92004D;}
+	100% {border-color: #6A00A8;}}
+}
+
+table{
+	border-radius: 5px;
+	border: 1px solid #4996A6;
+	padding: 5px 5px 5px 5px;
+	background-color: white;
+	background-color: #BDDBDA;
+	padding: 10px;
+	margin:auto;
+}
+a {
+	text-decoration: none;
+	color: #00B3FF;
+}
+.table1{
+	border:none;
+}
+
+
+

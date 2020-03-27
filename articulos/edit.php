@@ -89,56 +89,57 @@ while($row = $query->fetch(PDO::FETCH_ASSOC)){
 <html>
 <head>
 	<title>articulos</title>
+	<link rel="stylesheet" type="text/css" href="../css.css">
 </head>
-<body>
-	<a href="index.php">Home</a>
+<body class="body2">
+	<a href="index.php">atras</a>
 	<br><br>
 	
 	<form action="edit.php" method="post">
 		<table width="25%" border="0">
 			<tr>
 				<td>tipo</td>
-				<td><input type="text" name="tipo" value="<?php echo $tipo;?>"></td>
+				<td><input type="text" class="casillano" name="tipo" value="<?php echo $tipo;?>"></td>
 			</tr>
 			<tr>
 				<td>nombre</td>
-				<td><input type="text" name="nombre" value="<?php echo $nombre;?>"></td>
+				<td><input type="text" class="casillano" name="nombre" value="<?php echo $nombre;?>"></td>
 			</tr>
 			<tr>
 				<td>serial</td>
-				<td><input type="text" name="serial" value="<?php echo $serial;?>"></td>
+				<td><input type="text" class="casillano" name="serial" value="<?php echo $serial;?>"></td>
 			</tr>
 			<tr>
 				<td>marca</td>
-				<td><input type="text" name="marca" value="<?php echo $marca;?>"></td>
+				<td><input type="text" class="casillano" name="marca" value="<?php echo $marca;?>"></td>
 			</tr>
 			<tr>
 				<td>garantia</td>
-				<td><input type="text" name="garantia" value="<?php echo $garantia;?>"></td>
+				<td><input type="text" class="casillano" name="garantia" value="<?php echo $garantia;?>"></td>
 			</tr>
 			<tr>
 				<td>proveedor</td>
-				<td><input type="text" name="proveedor" value="<?php echo $proveedor;?>"></td>
+				<td><input type="text" class="casillano" name="proveedor" value="<?php echo $proveedor;?>"></td>
 			</tr>
 			<tr>
 				<td>Cantidad</td>
-				<td><input type="text" name="cantidad" value="<?php echo $cantidad;?>"></td>
+				<td><input type="text" class="casillano" name="cantidad" value="<?php echo $cantidad;?>"></td>
 			</tr>
 			<tr>
 				<td>Precio de compra</td>
-				<td><input type="text" name="p_compra" value="<?php echo $p_compra;?>"></td>
+				<td><input type="text" class="casillano" name="p_compra" value="<?php echo $p_compra;?>"></td>
 			</tr>
 			<tr>
 				<td>Precio de venta</td>
-				<td><input type="text" name="p_venta" value="<?php echo $p_venta;?>"></td>
+				<td><input type="text" class="casillano" name="p_venta" value="<?php echo $p_venta;?>"></td>
 			</tr>
 			<tr>
 				<td>Material</td>
-				<td><input type="text" name="material" value="<?php echo $material;?>"></td>
+				<td><input type="text" class="casillano" name="material" value="<?php echo $material;?>"></td>
 			</tr>
 			<tr>
 				<td><input type="hidden" name="id" value="<?php echo $_GET['id'];?>"></td>
-				<td><input type="submit" name="Update" value="Update"></td>
+				<td><input type="submit" class="accion" name="Update" value="Update"></td>
 			</tr>
 		<table>
 	</form>
